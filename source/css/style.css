@@ -7,6 +7,24 @@ p {
     display: none;
 }
 
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #686868;
+    text-decoration: underline;
+}
+
+a:hover .contacts__text {
+    display: block;
+}
+
+
+
+
 .page {
     display: flex;
     flex-direction: column;
@@ -15,13 +33,10 @@ p {
     padding: 0;
     margin: 0;
     background-color: #ffffff;
-
     font-size: 18px;
 }
 
-@media (min-width: 768px) {
-    .page {}
-}
+@media (min-width: 768px) {}
 
 .header {
     display: flex;
@@ -44,7 +59,7 @@ p {
 }
 
 .header__avatar {
-    margin: 20px;
+    margin: 20px 50px;
     display: flex;
 }
 
@@ -116,8 +131,6 @@ p {
 .contacts__icon {
     width: 32px;
     height: 32px;
-    border: 1px solid #000000;
-    border-radius: 50%;
 }
 
 .contacts__text {
@@ -223,8 +236,10 @@ p {
     text-transform: uppercase;
 }
 
-.portfolio__link:hover {
+.portfolio__link:hover,
+.portfolio__link:focus {
     background-color: #cecece;
+    text-decoration: none;
 }
 
 .portfolio__title {
@@ -241,14 +256,13 @@ p {
 
 .footer {
     padding: 40px 20px;
-    background-color: #b6b6b6;
+    background-color: #e9e9e9;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
 
 }
-
 
 .footer__name {
     font-size: 42px;
