@@ -2,16 +2,16 @@
 <html lang="ru" class="page">
 
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Дизайн-студия Нёрдс</title>
-  <link rel="icon" href="favico.ico" />
-  <link rel="icon" href="img/favicon/favico.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="img/favicon/180.png" />
-  <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="icon" href="favico.ico">
+  <link rel="icon" href="img/favicon/favico.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/favicon/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="nouislider/nouislider.css">
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -50,15 +50,15 @@
   </header>
 
   <main class="main-container">
-    <section class="catalog-header">
+    <h1 class="visually-hidden">Студия вэб дизайна Нёрдс</h1>
+    <div class="catalog-header">
       <div class="container">
-        <h1 class="visually-hidden">Студия вэб дизайна Нёрдс</h1>
         <h2 class="catalog-header__title">Магазин готовых шаблонов</h2>
       </div>
-    </section>
+    </div>
 
-    <section class="projects container">
-      <section class="projects_filters filters">
+    <div class="projects container">
+      <div class="projects__filters filters">
         <h2 class="visually-hidden">Каталог шаблонов</h2>
         <form id="catalog-filter" action="#" method="get">
           <fieldset class="filters__field filters__field--price">
@@ -83,8 +83,8 @@
 
           <fieldset class="filters__field">
             <legend class="filters__legend">Сетка:</legend>
-            <input id="adaptive" type="radio" id="dddd" class="visually-hidden filters__radio" name="grid"
-              value="adaptive" checked>
+            <input id="adaptive" type="radio" class="visually-hidden filters__radio" name="grid" value="adaptive"
+              checked>
             <label for="adaptive" class="filters__label filters__label--radio">Адаптивная</label>
             <input type="radio" id="fix" class="visually-hidden filters__radio" name="grid" value="fix">
             <label for="fix" class="filters__label filters__label--radio">Фиксированная</label>
@@ -111,18 +111,18 @@
 
           <button class="filters__button button" type="submit">Показать</button>
         </form>
-      </section>
+      </div>
 
-      <section class="projects__sort sort">
-        <p class="sort__legend filters__legend">Сортировать:</p>
+      <div class="projects__sort sort">
+        <p class="sort__legend">Сортировать:</p>
         <a class="sort__button sort__button--active">По цене</a>
         <a class="sort__button">По типу</a>
         <a class="sort__button">По названию</a>
         <a class="sort__button sort__button--up"><span class="visually-hidden">В порядке убывания</span></a>
         <a class="sort__button sort__button--down"><span class="visually-hidden">В порядке ворастания</span></a>
-      </section>
+      </div>
 
-      <section class="projects__catalog">
+      <div class="projects__catalog">
         <ul class="projects__list">
           <li class="projects__item">
             <div class="projects__preview-decor"></div>
@@ -179,7 +179,7 @@
             </div>
           </li>
         </ul>
-      </section>
+      </div>
 
       <div class="projects__list-toggle list-toggle">
         <button class="list-toggle__button button list-toggle__button--active-page">1</button>
@@ -187,16 +187,16 @@
         <button class="list-toggle__button button">3</button>
         <button class="list-toggle__button button list-toggle__button--next">Следующая</button>
       </div>
-    </section>
+    </div>
   </main>
 
   <footer class="main-footer">
     <div class="main-footer__map map">
-      <img class="map__image" src="img/map.png" width="1440" height="416" alt="Карта со схемой проезда" />
+      <img class="map__image" src="img/map.png" width="1440" height="416" alt="Карта со схемой проезда">
     </div>
 
     <div class="main-footer__map yandex-map">
-      <script type="text/javascript" charset="utf-8" async
+      <script async
         src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acb8ade882bd8f83fb37a128d6d89ce9240e858eb7f5c6576565fe556a87be243&amp;width=1440&amp;height=416&amp;lang=ru_RU&amp;scroll=true"></script>
     </div>
 
@@ -248,29 +248,28 @@
   <section class="modal modal-contacts hidden">
     <h2 class="visually-hidden">Форма обратной связи</h2>
     <div class="modal-contacts__header">
-      <p class="modal-contact__title">Напишите нам</p>
+      <p class="modal-contacts__title">Напишите нам</p>
       <button class="modal__close-button" aria-label="Закрыть"></button>
     </div>
     <div class="modal-contacts__main"></div>
     <form class="modal-contacts__form" id="contact-popup">
-      <label class="modal-contacts__lable">
-        <span class="modal-contacts__lable-description">Ваше Имя:</span>
-        <input class="input modal-contacts__text-input" type="text" placeholder="Имя фамилия" />
+      <label class="modal-contacts__label">
+        <span class="modal-contacts__label-description">Ваше Имя:</span>
+        <input class="input modal-contacts__text-input" type="text" placeholder="Имя фамилия">
       </label>
-      <lable class="modal-contacts__lable">
-        <span class="modal-contacts__lable-description">Ваш e-mail:</span>
-        <input class="input modal-contacts__text-input" type="email" placeholder="email@example.com " />
-      </lable>
-      <lable class="modal-contacts__lable">
-        <span class="modal-contacts__lable-description">Текст письма:</span>
+      <label class="modal-contacts__label">
+        <span class="modal-contacts__label-description">Ваш e-mail:</span>
+        <input class="input modal-contacts__text-input" type="email" placeholder="email@example.com ">
+      </label>
+      <label class="modal-contacts__label">
+        <span class="modal-contacts__label-description">Текст письма:</span>
         <textarea class="input modal-contacts__text-input modal-contacts__text-input--texarea"
           placeholder="В свободной форме"></textarea>
-      </lable>
+      </label>
       <button class="button modal-contacts__submit" type="submit">
         Отправить
       </button>
     </form>
-    </div>
   </section>
 
   <script src="nouislider/nouislider.js"></script>

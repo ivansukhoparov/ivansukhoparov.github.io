@@ -2,15 +2,15 @@
 <html lang="ru" class="page">
 
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Дизайн-студия Нёрдс</title>
-  <link rel="icon" href="favicon.ico" />
-  <link rel="icon" href="img/favicon/favico.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="img/favicon/180.png" />
-  <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="img/favicon/favico.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/favicon/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="page-body">
@@ -18,7 +18,7 @@
     <div class="main-header__container container">
       <a href="index.html" class="main-header__logo">
         <img class="main-header__logo-img logo-image" src="img/nerds-logo.svg" width="160" height="65"
-          alt="Логотп дизайн студии Нёррдс" />
+          alt="Логотп дизайн студии Нёррдс">
       </a>
 
       <nav class="main-nav site-navigation">
@@ -49,25 +49,25 @@
   </header>
 
   <main class="main-container">
-    <section class="catalog-header">
+    <h1 class="visually-hidden">Студия вэб дизайна Нёрдс</h1>
+    <div class="catalog-header">
       <div class="container">
-        <h1 class="visually-hidden">Студия вэб дизайна Нёрдс</h1>
         <h2 class="catalog-header__title">Просто еще одна страница</h2>
       </div>
-    </section>
+    </div>
 
-    <section class="content-container">
+    <div class="content-container">
 
-    </section>
+    </div>
   </main>
 
   <footer class="main-footer">
     <div class="main-footer__map map">
-      <img class="map__image" src="img/map.png" width="1440" height="416" alt="Карта со схемой проезда" />
+      <img class="map__image" src="img/map.png" width="1440" height="416" alt="Карта со схемой проезда">
     </div>
 
     <div class="main-footer__map yandex-map">
-      <script type="text/javascript" charset="utf-8" async
+      <script async
         src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acb8ade882bd8f83fb37a128d6d89ce9240e858eb7f5c6576565fe556a87be243&amp;width=1440&amp;height=416&amp;lang=ru_RU&amp;scroll=true"></script>
     </div>
 
@@ -125,24 +125,23 @@
     </div>
     <div class="modal-contacts__main"></div>
     <form class="modal-contacts__form" id="contact-popup">
-      <label class="modal-contacts__lable">
-        <span class="modal-contacts__lable-description">Ваше Имя:</span>
-        <input class="input modal-contacts__text-input" type="text" placeholder="Имя фамилия" />
+      <label class="modal-contacts__label">
+        <span class="modal-contacts__label-description">Ваше Имя:</span>
+        <input class="input modal-contacts__text-input" type="text" placeholder="Имя фамилия">
       </label>
-      <lable class="modal-contacts__lable">
-        <span class="modal-contacts__lable-description">Ваш e-mail:</span>
-        <input class="input modal-contacts__text-input" type="email" placeholder="email@example.com " />
-      </lable>
-      <lable class="modal-contacts__lable">
-        <span class="modal-contacts__lable-description">Текст письма:</span>
+      <label class="modal-contacts__label">
+        <span class="modal-contacts__label-description">Ваш e-mail:</span>
+        <input class="input modal-contacts__text-input" type="email" placeholder="email@example.com ">
+      </label>
+      <label class="modal-contacts__label">
+        <span class="modal-contacts__label-description">Текст письма:</span>
         <textarea class="input modal-contacts__text-input modal-contacts__text-input--texarea"
           placeholder="В свободной форме"></textarea>
-      </lable>
+      </label>
       <button class="button modal-contacts__submit" type="submit">
         Отправить
       </button>
     </form>
-    </div>
   </section>
 
   <script src="js/modal.js"></script>

@@ -865,6 +865,10 @@ img {
 }
 
 .sort__legend {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
   margin-right: auto;
 }
 
@@ -957,7 +961,7 @@ input:disabled+.filters__label--checkbox:before {
   opacity: 0.1;
 }
 
-.projects_filters {
+.projects__filters {
   grid-column: 1/2;
   grid-row: 1/4;
 }
@@ -1118,7 +1122,7 @@ input[type="number"],
   flex-wrap: wrap;
 }
 
-.modal-contact__title {
+.modal-contacts__title {
   color: var(--main-color);
   font-family: "Roboto";
   font-style: normal;
@@ -1165,7 +1169,7 @@ input[type="number"],
   opacity: 0.3;
 }
 
-.modal-contacts__lable {
+.modal-contacts__label {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -1210,7 +1214,7 @@ input[type="number"],
   margin-top: 22px;
 }
 
-.modal-contacts__lable-description {
+.modal-contacts__label-description {
   display: block;
   padding: 9px 0;
 }
