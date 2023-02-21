@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ladder Calculator for ESK</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page">
+
+    <header class="page__header header">
+        <h1 class="header__title title visually-hidden">Ladder Calculator for ESK</h1>
+        <div class="menu">
+            <button class="button menu__button menu__button--print" id="print-button">
+                <span class="visually-hidden">Print</span>
+            </button>
+            <button class="button menu__button menu__button--settings" id="open-settings">
+                <span class="visually-hidden">Settings</span>
+            </button>
+        </div>
+    </header>
+
+
+    <main class="page__main main">
+
+        <section class="parameters">
+            <h2 class="main__title title visually-hidden">Enter parameters</h2>
+            <form class="parameters__form form">
+                <fieldset class="form__fieldset">
+                    <label class="form__label">
+                        <span class="form__label-title">Number of steps, pc:</span>
+                        <span class="form__label-text">Whole number from 1 to 7</span>
+
+                    </label>
+                    <input type="text" class="form__input" id="number-of-steps" autocomplete="off" placeholder="3"
+                        required>
+                </fieldset>
+                <fieldset class="form__fieldset">
+                    <label class="form__label">
+                        <span class="form__label-title">Ladder length, m:</span>
+                        <span class="form__label-text">Enter length from 0.5 to 6 m</span>
+                    </label>
+                    <input type="text" class="form__input" id="ladder-length" autocomplete="off" placeholder="3"
+                        required>
+                </fieldset>
+                <input type="submit" class="button form__submit" id="parameters-submit" value="Calculate">
+            </form>
+        </section>
+
+        <section class="estimate">
+            <h2 class="title">Estimate</h2>
+            <div class="estimate__wrapper">
+                <table class="estimate__table table" id="estimate-table">
+                    <thead class="table__header">
+                        <tr class="table__row">
+                            <td class="table__col table__col--number table__col--mobile-hidden"> № </td>
+                            <td class="table__col table__col--name"> Name of the material </td>
+                            <td class="table__col table__col--amount table__col--mobile-hidden"> Amount </td>
+                            <td class="table__col table__col--cost"> Cost</td>
+                        </tr>
+                    </thead>
+
+                    <tbody class="table__body">
+                    </tbody>
+
+                </table>
+            </div>
+
+
+        </section>
+
+        <section class="drawings">
+            <h2 class="main__title title">Drawings</h2>
+            <div class="drawings__wrapper">
+                <div class="drawings__side">
+                    <h3 class="title drawings__title">Side view</h3>
+                    <div class="drawings__area" id="side-view"></div>
+                </div>
+                <div class="drawings__side">
+                    <h3 class="title drawings__title">Front view</h3>
+                    <div class="drawings__area" id="front-view"></div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="page__footer footer">
+        <p class="footer__text">Made by Ivan Sukhoparov for ESK v.1.0</p>
+    </footer>
+
+    <section class="modal modal--closed settings" id="settings-window">
+        <div class="modal__window">
+            <div class="modal__header">
+                <h2 class="modal__title title">Settings</h2>
+                <button class="button modal__close" id="close-settings">
+                    <span class="visually-hidden">Close window</span>
+                </button>
+            </div>
+            <form class="settings__form form">
+                <table class="settings__table table" id="settings-table">
+                    <thead class="table__header">
+                        <tr class="table__row">
+                            <td class="table__col table__col--mobile-hidden"> № </td>
+                            <td class="table__col"> Name of the material </td>
+                            <td class="table__col table__col--mobile-hidden">Amount</td>
+                            <td class="table__col"> Price</td>
+                        </tr>
+                    </thead>
+                    <tbody class="table__body">
+
+                    </tbody>
+
+                </table>
+                <input type="submit" class="button form__submit settings__submit" id="set-settings"
+                    value="Save settings">
+            </form>
+        </div>
+    </section>
+
+    <template id="estimate-table-row">
+        <tr class="table__row">
+            <td class="table__col table__col--number table__col--mobile-hidden"> № </td>
+            <td class="table__col table__col--name"> Name of the material </td>
+            <td class="table__col table__col--amount table__col--mobile-hidden"> Amount </td>
+            <td class="table__col table__col--cost"> Cost</td>
+        </tr>
+    </template>
+
+    <template id="settings-table-row">
+        <tr class="table__row">
+            <td class="table__col table__col--number table__col--mobile-hidden"> № </td>
+            <td class="table__col table__col--name"> Name of the material </td>
+            <td class="table__col table__col--amount table__col--mobile-hidden">Amount</td>
+            <td class="table__col table__col--price">
+                <input type="text" class="form__input settings__input" autocomplete="off" id="material-1" value="1500"
+                    required>
+            </td>
+        </tr>
+    </template>
+
+    <template id="error">
+        <div class="error error--hidden">
+            <span> error</span>
+            <button class="button error__close"></button>
+        </div>
+    </template>
+
+
+    <script src="js/main.js" type="module"></script>
+</body>
