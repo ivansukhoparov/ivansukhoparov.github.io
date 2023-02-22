@@ -18,10 +18,6 @@ a:focus {
     text-decoration: underline;
 }
 
-a:hover .contacts__text {
-    display: block;
-}
-
 .page {
     display: flex;
     flex-direction: column;
