@@ -1,101 +1,115 @@
 @font-face {
   font-family: "Calibre";
-  src: url("../../fonts/Calibre-Light.eot");
-  src: local("Calibre Light"), local("Calibre-Light"), url("../../fonts/Calibre-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Calibre-Light.woff2") format("woff2"), url("../../fonts/Calibre-Light.woff") format("woff"), url("../../fonts/Calibre-Light.ttf") format("truetype");
+  src: url("../fonts/Calibre-Light.eot");
+  src: local("Calibre Light"), local("Calibre-Light"), url("../fonts/Calibre-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibre-Light.woff2") format("woff2"), url("../fonts/Calibre-Light.woff") format("woff"), url("../fonts/Calibre-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Calibre";
-  src: url("../../fonts/Calibre-Thin.eot");
-  src: local("Calibre Thin"), local("Calibre-Thin"), url("../../fonts/Calibre-Thin.eot?#iefix") format("embedded-opentype"), url("../../fonts/Calibre-Thin.woff2") format("woff2"), url("../../fonts/Calibre-Thin.woff") format("woff"), url("../../fonts/Calibre-Thin.ttf") format("truetype");
+  src: url("../fonts/Calibre-Thin.eot");
+  src: local("Calibre Thin"), local("Calibre-Thin"), url("../fonts/Calibre-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibre-Thin.woff2") format("woff2"), url("../fonts/Calibre-Thin.woff") format("woff"), url("../fonts/Calibre-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Calibre";
-  src: url("../../fonts/Calibre-LightItalic.eot");
-  src: local("Calibre Light Italic"), local("Calibre-LightItalic"), url("../../fonts/Calibre-LightItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Calibre-LightItalic.woff2") format("woff2"), url("../../fonts/Calibre-LightItalic.woff") format("woff"), url("../../fonts/Calibre-LightItalic.ttf") format("truetype");
+  src: url("../fonts/Calibre-LightItalic.eot");
+  src: local("Calibre Light Italic"), local("Calibre-LightItalic"), url("../fonts/Calibre-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibre-LightItalic.woff2") format("woff2"), url("../fonts/Calibre-LightItalic.woff") format("woff"), url("../fonts/Calibre-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Calibre";
-  src: url("../../fonts/Calibre-MediumItalic.eot");
-  src: local("Calibre Medium Italic"), local("Calibre-MediumItalic"), url("../../fonts/Calibre-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Calibre-MediumItalic.woff2") format("woff2"), url("../../fonts/Calibre-MediumItalic.woff") format("woff"), url("../../fonts/Calibre-MediumItalic.ttf") format("truetype");
+  src: url("../fonts/Calibre-MediumItalic.eot");
+  src: local("Calibre Medium Italic"), local("Calibre-MediumItalic"), url("../fonts/Calibre-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibre-MediumItalic.woff2") format("woff2"), url("../fonts/Calibre-MediumItalic.woff") format("woff"), url("../fonts/Calibre-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Calibre";
-  src: url("../../fonts/Calibre-BlackItalic.eot");
-  src: local("Calibre Black Italic"), local("Calibre-BlackItalic"), url("../../fonts/Calibre-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Calibre-BlackItalic.woff2") format("woff2"), url("../../fonts/Calibre-BlackItalic.woff") format("woff"), url("../../fonts/Calibre-BlackItalic.ttf") format("truetype");
+  src: url("../fonts/Calibre-BlackItalic.eot");
+  src: local("Calibre Black Italic"), local("Calibre-BlackItalic"), url("../fonts/Calibre-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibre-BlackItalic.woff2") format("woff2"), url("../fonts/Calibre-BlackItalic.woff") format("woff"), url("../fonts/Calibre-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Calibre";
-  src: url("../../fonts/Calibre-Semibold.eot");
-  src: local("Calibre Semibold"), local("Calibre-Semibold"), url("../../fonts/Calibre-Semibold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Calibre-Semibold.woff2") format("woff2"), url("../../fonts/Calibre-Semibold.woff") format("woff"), url("../../fonts/Calibre-Semibold.ttf") format("truetype");
+  src: url("../fonts/Calibre-Semibold.eot");
+  src: local("Calibre Semibold"), local("Calibre-Semibold"), url("../fonts/Calibre-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibre-Semibold.woff2") format("woff2"), url("../fonts/Calibre-Semibold.woff") format("woff"), url("../fonts/Calibre-Semibold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Calibre";
-  src: url("../../fonts/Calibre-Black.eot");
-  src: local("Calibre Black"), local("Calibre-Black"), url("../../fonts/Calibre-Black.eot?#iefix") format("embedded-opentype"), url("../../fonts/Calibre-Black.woff2") format("woff2"), url("../../fonts/Calibre-Black.woff") format("woff"), url("../../fonts/Calibre-Black.ttf") format("truetype");
+  src: url("../fonts/Calibre-Black.eot");
+  src: local("Calibre Black"), local("Calibre-Black"), url("../fonts/Calibre-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibre-Black.woff2") format("woff2"), url("../fonts/Calibre-Black.woff") format("woff"), url("../fonts/Calibre-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Calibre";
-  src: url("../../fonts/Calibre-Medium.eot");
-  src: local("Calibre Medium"), local("Calibre-Medium"), url("../../fonts/Calibre-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/Calibre-Medium.woff2") format("woff2"), url("../../fonts/Calibre-Medium.woff") format("woff"), url("../../fonts/Calibre-Medium.ttf") format("truetype");
+  src: url("../fonts/Calibre-Medium.eot");
+  src: local("Calibre Medium"), local("Calibre-Medium"), url("../fonts/Calibre-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibre-Medium.woff2") format("woff2"), url("../fonts/Calibre-Medium.woff") format("woff"), url("../fonts/Calibre-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Calibre";
-  src: url("../../fonts/Calibre-RegularItalic.eot");
-  src: local("Calibre Regular Italic"), local("Calibre-RegularItalic"), url("../../fonts/Calibre-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Calibre-RegularItalic.woff2") format("woff2"), url("../../fonts/Calibre-RegularItalic.woff") format("woff"), url("../../fonts/Calibre-RegularItalic.ttf") format("truetype");
+  src: url("../fonts/Calibre-RegularItalic.eot");
+  src: local("Calibre Regular Italic"), local("Calibre-RegularItalic"), url("../fonts/Calibre-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibre-RegularItalic.woff2") format("woff2"), url("../fonts/Calibre-RegularItalic.woff") format("woff"), url("../fonts/Calibre-RegularItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Calibre";
-  src: url("../../fonts/Calibre-BoldItalic.eot");
-  src: local("Calibre Bold Italic"), local("Calibre-BoldItalic"), url("../../fonts/Calibre-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Calibre-BoldItalic.woff2") format("woff2"), url("../../fonts/Calibre-BoldItalic.woff") format("woff"), url("../../fonts/Calibre-BoldItalic.ttf") format("truetype");
+  src: url("../fonts/Calibre-BoldItalic.eot");
+  src: local("Calibre Bold Italic"), local("Calibre-BoldItalic"), url("../fonts/Calibre-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibre-BoldItalic.woff2") format("woff2"), url("../fonts/Calibre-BoldItalic.woff") format("woff"), url("../fonts/Calibre-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Calibre";
-  src: url("../../fonts/Calibre-Bold.eot");
-  src: local("Calibre Bold"), local("Calibre-Bold"), url("../../fonts/Calibre-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Calibre-Bold.woff2") format("woff2"), url("../../fonts/Calibre-Bold.woff") format("woff"), url("../../fonts/Calibre-Bold.ttf") format("truetype");
+  src: url("../fonts/Calibre-Bold.eot");
+  src: local("Calibre Bold"), local("Calibre-Bold"), url("../fonts/Calibre-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibre-Bold.woff2") format("woff2"), url("../fonts/Calibre-Bold.woff") format("woff"), url("../fonts/Calibre-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Calibre";
-  src: url("../../fonts/Calibre-Regular.eot");
-  src: local("Calibre"), local("Calibre-Regular"), url("../../fonts/Calibre-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Calibre-Regular.woff2") format("woff2"), url("../../fonts/Calibre-Regular.woff") format("woff"), url("../../fonts/Calibre-Regular.ttf") format("truetype");
+  src: url("../fonts/Calibre-Regular.eot");
+  src: local("Calibre"), local("Calibre-Regular"), url("../fonts/Calibre-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibre-Regular.woff2") format("woff2"), url("../fonts/Calibre-Regular.woff") format("woff"), url("../fonts/Calibre-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Calibre";
-  src: url("../../fonts/Calibre-SemiboldItalic.eot");
-  src: local("Calibre Semibold Italic"), local("Calibre-SemiboldItalic"), url("../../fonts/Calibre-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Calibre-SemiboldItalic.woff2") format("woff2"), url("../../fonts/Calibre-SemiboldItalic.woff") format("woff"), url("../../fonts/Calibre-SemiboldItalic.ttf") format("truetype");
+  src: url("../fonts/Calibre-SemiboldItalic.eot");
+  src: local("Calibre Semibold Italic"), local("Calibre-SemiboldItalic"), url("../fonts/Calibre-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibre-SemiboldItalic.woff2") format("woff2"), url("../fonts/Calibre-SemiboldItalic.woff") format("woff"), url("../fonts/Calibre-SemiboldItalic.ttf") format("truetype");
   font-weight: 600;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Calibre";
-  src: url("../../fonts/Calibre-ThinItalic.eot");
-  src: local("Calibre Thin Italic"), local("Calibre-ThinItalic"), url("../../fonts/Calibre-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Calibre-ThinItalic.woff2") format("woff2"), url("../../fonts/Calibre-ThinItalic.woff") format("woff"), url("../../fonts/Calibre-ThinItalic.ttf") format("truetype");
+  src: url("../fonts/Calibre-ThinItalic.eot");
+  src: local("Calibre Thin Italic"), local("Calibre-ThinItalic"), url("../fonts/Calibre-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibre-ThinItalic.woff2") format("woff2"), url("../fonts/Calibre-ThinItalic.woff") format("woff"), url("../fonts/Calibre-ThinItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
 }
+
 p {
   margin: 0;
   padding: 0;
@@ -156,7 +170,7 @@ ul {
   height: 598px;
   margin: -120px 0 0 0;
   padding: 150px 20px 20px 100px;
-  background-image: url("../../img/background.jpg");
+  background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
 }
 
@@ -200,6 +214,7 @@ ul {
   flex-direction: row;
   align-items: center;
 }
+
 .promo__item:before {
   content: "";
   display: inline-block;
@@ -210,14 +225,17 @@ ul {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .promo__item--geology::before {
-  background-image: url(../../img//icons/pickaxe.svg);
+  background-image: url(../img//icons/pickaxe.svg);
 }
+
 .promo__item--photo::before {
-  background-image: url(../../img//icons/photos.svg);
+  background-image: url(../img//icons/photos.svg);
 }
+
 .promo__item--winter::before {
-  background-image: url(../../img//icons/snow.svg);
+  background-image: url(../img//icons/snow.svg);
 }
 
 .content {
@@ -247,6 +265,7 @@ ul {
   flex-direction: column;
   margin: 20px 0;
 }
+
 .advantages__item::before {
   height: 50px;
   width: 50px;
@@ -258,23 +277,29 @@ ul {
   content: "";
   display: block;
 }
+
 .advantages__item--contract::before {
-  background-image: url("../../img/icons/contract.svg");
+  background-image: url("../img/icons/contract.svg");
 }
+
 .advantages__item--concrete::before {
-  background-image: url("../../img/icons/concrete-mixer.svg");
+  background-image: url("../img/icons/concrete-mixer.svg");
 }
+
 .advantages__item--technics::before {
-  background-image: url("../../img/icons/excavator.svg");
+  background-image: url("../img/icons/excavator.svg");
 }
+
 .advantages__item--project::before {
-  background-image: url("../../img/icons/icn1.png");
+  background-image: url("../img/icons/icn1.png");
 }
+
 .advantages__item--control::before {
-  background-image: url("../../img/icons/engineer.svg");
+  background-image: url("../img/icons/engineer.svg");
 }
+
 .advantages__item--bage::before {
-  background-image: url("../../img/icons/badge.svg");
+  background-image: url("../img/icons/badge.svg");
 }
 
 .advantages__title {
@@ -327,6 +352,7 @@ ul {
   flex-direction: row;
   align-items: center;
 }
+
 .choice__button::before {
   width: 0;
   height: 0;
@@ -346,6 +372,7 @@ ul {
   background-color: #585552;
   color: #ffffff;
 }
+
 .incentive--right {
   flex-direction: row-reverse;
 }
@@ -400,6 +427,7 @@ ul {
   color: #ffffff;
   font-weight: 400;
 }
+
 .order__step::after {
   content: "";
   display: block;
@@ -433,6 +461,7 @@ ul {
   overflow: hidden;
   z-index: 1;
 }
+
 .button::before {
   content: "";
   position: absolute;
@@ -445,26 +474,33 @@ ul {
   transition: all 200ms;
   background: linear-gradient(0, rgb(235, 78, 78) 0%, rgb(241, 134, 134) 50%, rgb(235, 78, 78) 100%);
 }
+
 .button:hover {
   outline-offset: -2px;
 }
+
 .button:hover::before {
   opacity: 1;
 }
+
 .button:focus {
   outline-offset: -2px;
 }
+
 .button:active {
   background: rgb(235, 78, 78);
 }
+
 .button:active::before {
   opacity: 0;
 }
+
 .button--light {
   color: rgb(235, 78, 78);
   background: none;
   outline: 1px dotted rgb(235, 78, 78);
 }
+
 .button--light::before {
   content: "";
   position: absolute;
@@ -483,11 +519,13 @@ ul {
   background-position: bottom;
   background-repeat: no-repeat;
 }
+
 .info--how-we-work {
-  background-image: url("../../img/how-we-work.jpg");
+  background-image: url("../img/how-we-work.jpg");
 }
+
 .info--about-price {
-  background-image: url("../../img/house.jpg");
+  background-image: url("../img/house.jpg");
   height: 540px;
 }
 
@@ -507,29 +545,35 @@ ul {
   border-bottom: 18px solid transparent;
   transition: 300ms;
 }
+
 .photo__button--previous {
   border-left: none;
   border-right: 18px solid #585552;
 }
+
 .photo__button--previous:hover {
   transform: scale(1.5);
   margin-left: -5px;
   margin-right: 5px;
   border-right: 18px solid #e87676;
 }
+
 .photo__button--previous:active {
   border-right: 18px solid #585552;
 }
+
 .photo__button--next {
   border-right: none;
   border-left: 18px solid #585552;
 }
+
 .photo__button--next:hover {
   transform: scale(1.5);
   margin-left: 5px;
   margin-right: -5px;
   border-left: 18px solid #e87676;
 }
+
 .photo__button--next:active {
   border-left: 18px solid #585552;
 }
@@ -547,6 +591,7 @@ ul {
   position: relative;
   transition: 300ms;
 }
+
 .photo__container:hover {
   transform: scale(1.05);
 }
@@ -556,10 +601,14 @@ ul {
   box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.49);
   transition: 500ms;
 }
-.photo__img--previous, .photo__img--next {
+
+.photo__img--previous,
+.photo__img--next {
   filter: grayscale(1);
 }
-.photo__img--previous:hover, .photo__img--next:hover {
+
+.photo__img--previous:hover,
+.photo__img--next:hover {
   filter: grayscale(0.5);
 }
 
@@ -603,7 +652,9 @@ ul {
   margin: 8px;
   transition: all 200ms;
 }
-.questions__button:hover, .questions__button:focus {
+
+.questions__button:hover,
+.questions__button:focus {
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.49);
 }
 
@@ -750,6 +801,7 @@ ul {
   position: relative;
   transition: 300ms;
 }
+
 .feedbacks__gallery-link:hover {
   transform: scale(1.05);
 }
@@ -763,29 +815,35 @@ ul {
   border-bottom: 18px solid transparent;
   transition: 300ms;
 }
+
 .feedbacks__button--previous {
   border-left: none;
   border-right: 18px solid #585552;
 }
+
 .feedbacks__button--previous:hover {
   transform: scale(1.5);
   margin-left: -5px;
   margin-right: 5px;
   border-right: 18px solid #e87676;
 }
+
 .feedbacks__button--previous:active {
   border-right: 18px solid #585552;
 }
+
 .feedbacks__button--next {
   border-right: none;
   border-left: 18px solid #585552;
 }
+
 .feedbacks__button--next:hover {
   transform: scale(1.5);
   margin-left: 5px;
   margin-right: -5px;
   border-left: 18px solid #e87676;
 }
+
 .feedbacks__button--next:active {
   border-left: 18px solid #585552;
 }
