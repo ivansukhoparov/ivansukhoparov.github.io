@@ -40,25 +40,22 @@
 
         const token = await fetch("http://localhost:5001/auth/login",            {
                 method: "POST",
-                credentials: 'include',
+            credentials: 'include',
+
+            redirect: 'follow',
                 headers: {
                     'Content-Type': 'application/json',
-                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Origin': 'http://localhost:63342/',
                     'Access-Control-Allow-Credentials': 'true',
                     'accept': '*/*',
                     'cookie': "user=John",
                 },
-
+                withCredentials: true,
                 body: JSON.stringify({
                     loginOrEmail:   "sdfef@yandex.ru",
                     password:"qwerty"
                 })
             }).then(res => res.json()).then(res =>console.log( res)).catch(error => alert(error))
-
-
-
-        console.log(document.cookie);
-
     })
 </script>
 </body>
