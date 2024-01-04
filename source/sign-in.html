@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    <label for="login-or-email">login or email</label><input type="text" id="login-or-email" name="login-or-email"
+                                                             value="sdfef@yandex.ru">
+    <label for="passwrod">password</label><input type="text" id="passwrod" name="passwrod" value="qwerty">
+    <button type="submit" id="sign-in">SignIn</button>
+
+</form>
+
+<a href="index.html">index</a>
+<script>
+    const SERVER = " http://localhost:5001"
+    const loginOrEmail = document.querySelector("#login-or-email").value;
+    const password = document.querySelector("#passwrod").value;
+    const submitButton = document.querySelector("#sign-in");
+
+    const signInData = {
+        loginOrEmail:   "sdfef@yandex.ru",
+        password:"qwerty"
+    }
+    function parseCookies(response) {
+        const raw = response.headers.raw()['set-cookie'];
+        return raw.map((entry) => {
+            const parts = entry.split(';');
+            const cookiePart = parts[0];
+            return cookiePart;
+        }).join(';');
+    }
+
+    document.cookie = "user=John"
+
+    submitButton.addEventListener("click", async (evt) => {
+        evt.preventDefault();
+
+        const token = await fetch("http://localhost:5001/auth/login",            {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Credentials': 'true',
+                    'accept': '*/*',
+                    'cookie': "user=John",
+                },
+                withCredentials: true,
+                body: JSON.stringify({
+                    loginOrEmail:   "sdfef@yandex.ru",
+                    password:"qwerty"
+                })
+            }).then(res => res.json()).then(res =>console.log( res)).catch(error => alert(error))
+
+
+
+        console.log(document.cookie);
+
+    })
+</script>
+</body>
+</html>
